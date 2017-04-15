@@ -13,7 +13,7 @@ npm run dev
 ```
 注册登录之后发博客大致可以看到这样的效果:
 
-![图片]('/Pictures/blog_login.png')
+![图片]('https://raw.githubusercontent.com/Borkes/vueblog/master/static/blog_login.png')
 
 我是根据这里[vuecli脚手架](https://github.com/MeCKodo/vue-tutorial)的一个使用例子做的改动.
 
@@ -31,20 +31,20 @@ npm run dev
 	|	|	|	|——Person.vue	       //左侧栏目,可以扩展显示
 	|	|	|	|——Register.vue	       //注册页面
 	|	|	|——router/		           //路由
-    |	|	|	|——index.js	           //路由入口
-    |	|	|——store/		           //存放vuex,用户信息和博客数据存储
+        |	|	|	|——index.js	           //路由入口
+        |	|	|——store/		           //存放vuex,用户信息和博客数据存储
 	|	|	|	|——actions.js		   //vuex的action文件
-    |   |   |   |——index.js            //store入口
+        |       |       |       |——index.js            //store入口
 	|	|	|	|——mutation-types.js    
-    |	|	|	|——mutations.js        //vuex核心代码
+    	|	|	|	|——mutations.js        //vuex核心代码
 	|	|	|——App.vue				   //父组件
 	|	|	|——main.js				   //入口文件
 	|	|——static/
 	|	|——.babelrc
 	|	|——.editorconfig
-    |	|——.eslintrc.js
-    |   |——.eslintignore
-    |   |——.postcssrc.js
+        |	|——.eslintrc.js
+        |       |——.eslintignore
+        |       |——.postcssrc.js
 	|	|——.gitgnore
 	|	|——index.html
 	|	|——package.json
