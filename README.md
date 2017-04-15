@@ -13,7 +13,7 @@ npm run dev
 ```
 注册登录之后发博客大致可以看到这样的效果:
 
-![图片]('https://raw.githubusercontent.com/Borkes/vueblog/master/static/blog_login.png')
+![图片](https://raw.githubusercontent.com/Borkes/vueblog/master/static/blog_login.png)
 
 我是根据这里[vuecli脚手架](https://github.com/MeCKodo/vue-tutorial)的一个使用例子做的改动.
 
